@@ -1,0 +1,1 @@
+/Users/thanush/Documents/projects/pythong/pyqt5/qtdesigner/combine/convert.py
