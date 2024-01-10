@@ -93,7 +93,6 @@ class Ui_Form(object):
         if folder:
             path = Path(folder)
             self.SaveInput.setText(str(path))
-            print(path)
 
    
 

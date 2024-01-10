@@ -8,6 +8,7 @@ import currencyConverter
 
 class Ui_Form(QWidget):
     def setupUi(self, Form):
+        # sets up the Base window
         Form.setObjectName("Form")
         Form.resize(500, 500)
         self.tabWidget = QtWidgets.QTabWidget(parent=Form)
@@ -15,7 +16,7 @@ class Ui_Form(QWidget):
         self.tabWidget.setUsesScrollButtons(False)
         self.tabWidget.setObjectName("tabWidget")
         
-
+        # implements all the widgets onto the page
         self.yt = ytDownload.Ui_Form()
         self.ytTab = QtWidgets.QWidget()
         self.ytTab.setObjectName("Youtube Downloader")
